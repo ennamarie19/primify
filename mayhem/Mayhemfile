@@ -1,7 +1,5 @@
 project: primify
 target: img-fuzz
-testsuite:
-    - file://mayhem/testsuite
 
 cmds:
   - cmd: /src/mayhem/fuzz_img.py
